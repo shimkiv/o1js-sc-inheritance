@@ -1,4 +1,4 @@
-import { Field, SmartContract, state, State, method } from 'o1js';
+import { Field, SmartContract, State, method, state } from 'o1js';
 
 /**
  * Basic Example
@@ -23,3 +23,5 @@ export class Add extends SmartContract {
     this.num.set(newState);
   }
 }
+
+export class ShadowMyAdd extends Add {}

@@ -1,3 +1,3 @@
-import { Add } from './Add.js';
+import { Add, ShadowMyAdd } from './Add.js';
 
-export { Add };
+export { Add, ShadowMyAdd };

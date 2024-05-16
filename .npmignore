@@ -1,11 +1,22 @@
-# TypeScript files
 src
-
-# Editor
 .vscode
-
-# System
 .DS_Store
-
+webpack.config.js
+.idea
+docs
+tsconfig.json
+.gitignore
+site/*
+dist/*
+.nvmrc
+.prettierrc
+.eslintrc.cjs
+.gitattributes
+.prettierignore
+babel.config.cjs
+config.json
+jest-resolver.cjs
+jest.config.js
+.github
 # Never reveal your keys!
 keys
